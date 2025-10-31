@@ -1,14 +1,20 @@
-# Shutdowner
-# 🔐 Secure Login GUI with Tkinter
+# ⚠️ ShutDowner
 
-This project demonstrates a simple login interface built with Python's Tkinter library. It includes basic username/password validation and a timeout feature. The GUI is styled with custom colors and fonts for a clean user experience.
+**ShutDowner** is a Python-based GUI login system built with Tkinter that demonstrates user authentication, timeout handling, and optional system shutdown behavior. It is designed for educational purposes only — to explore GUI design, PyInstaller packaging, and basic system interactions.
 
-## 💡 Features
+> ❗ This project is not intended for malicious use. It should only be run in safe, controlled environments for learning or demonstration.
 
-- User authentication with hardcoded credentials (for demo purposes)
-- Timeout mechanism to auto-close the app after inactivity
-- GUI built with Tkinter and styled using custom fonts/colors
-- Optional packaging into a standalone `.exe` using PyInstaller
+---
+
+## 🧩 Features
+
+- Login screen with username/password validation
+- Timeout mechanism (auto-triggered after 12 seconds of inactivity)
+- Optional system shutdown on failed login or timeout (disabled in test mode)
+- GUI built with Tkinter and styled for clarity
+- PyInstaller integration for `.exe` packaging
+
+---
 
 ## 🚀 Getting Started
 
@@ -18,7 +24,7 @@ This project demonstrates a simple login interface built with Python's Tkinter l
 - Tkinter (comes with Python)
 - PyInstaller (optional, for building `.exe`)
 
-### Run the App
+### Run in Test Mode (No Shutdown)
 
 ```bash
-python login_gui.py
+python ShutDowner.py
